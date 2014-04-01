@@ -40,6 +40,11 @@ echo "###### SKIPPING TABLE: ######"
 
 ./skipping-table.sh $1
 
+echo
+echo "###### CANNOT CHECKSUM TABLE: ######"
+
+./cannot-checksum-table.sh $1
+
 
 exit 0
 
